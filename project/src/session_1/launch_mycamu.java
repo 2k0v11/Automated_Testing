@@ -15,9 +15,9 @@ public class launch_mycamu {
        ChromeDriver d=new ChromeDriver(op);
        d.get("https://www.mycamu.co.in/#/?id=62661c40e51b080604ed30d7");
        d.manage().window().maximize();
-       d.findElement(By.id("username")).sendKeys("kavya.20201csd0097@presidencyuniversity.in");
+       d.findElement(By.id("username")).sendKeys("your_email");
        Thread.sleep(3000);
-       d.findElement(By.id("password")).sendKeys("fcvVHNCn");
+       d.findElement(By.id("password")).sendKeys("your_password");
        Thread.sleep(3000);
        d.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[1]/div[2]/div/div[3]/div[2]/form/div[3]/button[1]")).click();
        Thread.sleep(1000);
