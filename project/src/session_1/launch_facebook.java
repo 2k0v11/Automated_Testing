@@ -15,9 +15,9 @@ public class launch_facebook {
 	       ChromeDriver d=new ChromeDriver(op);
 	       d.get("https://www.facebook.com/");
 	       d.manage().window().maximize();
-	       d.findElement(By.id("email")).sendKeys("kavyakartik6@gmail.com");
+	       d.findElement(By.id("email")).sendKeys("facebook_email");
 	       Thread.sleep(3000);
-	       d.findElement(By.id("pass")).sendKeys("qwerty123456");
+	       d.findElement(By.id("pass")).sendKeys("facebook_password");
 	       Thread.sleep(3000);
 	       d.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button")).click();
 	       Thread.sleep(1000);
