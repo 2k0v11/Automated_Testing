@@ -26,5 +26,5 @@
 
 
 
-### Reporting
+### Outputs
 #### Test reports will be generated in the Automated_Testing/project/src/outputs/ directory
