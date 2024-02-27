@@ -27,4 +27,4 @@
 
 
 ### Reporting
-#### Test reports will be generated in the Automated_Testing/surefire-reports directory
+#### Test reports will be generated in the Automated_Testing/project/src/outputs/ directory
